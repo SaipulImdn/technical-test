@@ -1,5 +1,5 @@
 ````markdown
-# User Management System
+# Technical Test System
 
 This project is a backend service designed to manage user registration, login, and CRUD operations. Built using Golang with the Gin framework, it also incorporates dynamic Docker configuration for easy deployment.
 
@@ -62,13 +62,13 @@ This project is a backend service designed to manage user registration, login, a
 1. **Build the Docker Image:**
 
    ```bash
-   docker build -t user-management .
+   docker build -t technnical-test .
    ```
 
 2. **Run the Docker Container:**
 
    ```bash
-   docker run -p 5000:5000 --env-file .env user-management
+   docker run -p 5000:5000 --env-file .env technnical-test
    ```
 
    The application should now be accessible at `http://localhost:5000`.
